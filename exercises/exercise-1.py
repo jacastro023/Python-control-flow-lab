@@ -10,8 +10,8 @@ if letter in ('a', 'e', 'i', 'o', 'u'):
 # 3. Print one of following messages (substituting the letter for x):
 #      - The letter x is a vowel
 #      - The letter x is a consonant
-	print("The letter %s is a vowel." %letter)
+	print(f"The letter {letter} is a vowel.")
 else:
-	print("The letter %s is a consonant." %letter) 
+	print(f"The letter {letter} is a consonant.") 
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':

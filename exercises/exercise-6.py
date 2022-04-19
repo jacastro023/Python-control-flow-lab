@@ -3,15 +3,19 @@
 # Write the code that:
 # 1. Prompts the user to enter the month (as three characters):
 #      Enter the month of the year (Jan - Dec):
+month = input("Enter the month of the year (Jan - Dec): ").lower()
 # 2. Then prompts the user to enter the day of the month: 
 #      Enter the day of the month:
+day = input("Enter the day of the month: ").lower()
 # 3. Calculate what season it is based upon this chart:
 #      Dec 21 - Mar 19: Winter
 #      Mar 20 - Jun 20: Spring
 #      Jun 21 - Sep 21: Summer
 #      Sep 22 - Dec 20: Fall
+
 # 4. Print the result as follows:
 #      <Mmm> <dd> is in <season> 
+print(f'{month} {day} is in {season}')
 
 # Hints:
 # Consider using the in operator to check if a string is in a particular list/tuple like this:
